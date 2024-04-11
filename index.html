@@ -20,26 +20,34 @@
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <nav class="navbar">
+        <nav class="navlist">
             <a href="#home" class="active">Home</a>
             <a href="#about" class="active">About me</a>
-            <a href="#servises" class="active">Experiences</a>
-            <a href="#portifolio" class="active">Projects</a>
+            <a href="#projects" class="active">Projects</a>
+            <a href="#experience" class="active">Experiences</a>
+            <a href="#graduations" class="active">Graduations</a>
             <a href="#skills" class="active">Skills</a> 
         </nav>
     </header>
 
     <!-- HOME SELECT DESIGN -->
     <section class="home" id="home">
-        <div class="home-content">
-            <h1><span>Hello</span> I'm</h1>
-            <h3>Marcus Oliveira</h3>
-            <h3><span>Full-Stack Developer</span></h3>
-            <p>Student to become a Full-Stack programmer, focusing on developing IT systems and applications. Studying Software Engineering in the first semester and graduated in Systems Analysis and Development.</p>
-            
-            <a href="https://1drv.ms/b/c/14db3233354440d9/EQ4tOYCVkOlArTt17pUqWRgBKh8pBkYZaQAVEJd2U08xDg?e=fhOIhD"class="btn" target="_blank">Open CV</a>
-            <div ></div>
-
+        <div class="home-div">
+            <div class="home-text">
+                <div class="slide">
+                    <span class="two">Hello</span>
+                    <span class="one">I'm</span>
+                </div>
+                <h1>Marcus Oliveira</h1>
+                <h3><span>Full-Stack Developer</span></h3>
+                <p>Student to become a Full-Stack programmer, focusing on developing IT systems and applications. Studying Software Engineering in the first semester and graduated in Systems Analysis and Development.</p>
+                <a href="https://1drv.ms/b/c/14db3233354440d9/EQ4tOYCVkOlArTt17pUqWRgBKh8pBkYZaQAVEJd2U08xDg?e=fhOIhD"class="btn" target="_blank">Open CV</a>
+                <div class="button">
+                    <a href="https://api.whatsapp.com/send/?phone=5511954405823" target="_blank" class="btn">Say
+                        hello</a>
+                </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -49,25 +57,230 @@
             <img src="img/profile.jpg" alt="">
         </div>
 
-        <div class="about-content">
+        <div class="about-text">
             <h2 class="heading">About <span>Me</span></h2>
             <h3><span>Passionate about coding <3</span></h3>
             <p>&bull; Graduated in Systems Analysis and Development.</p>
             <p>&bull; 2 years of SEO experience</p>
             <p>&bull; Studying Software Engineering</p>
             <div class="social-media">
-                <a href="https://github.com/marcussviniciuss" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/marcus-vin%C3%ADcius-267756219/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/_.marcus.vinicius/?hl=pt-br" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://api.whatsapp.com/send/?phone=5511954405823" target="_blank"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                <a href="https://github.com/marcussviniciuss" target="_blank" class="btn-socials"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/marcus-vin%C3%ADcius-267756219/" target="_blank" class="btn-socials"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_.marcus.vinicius/?hl=pt-br" target="_blank" class="btn-socials"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=5511954405823" target="_blank" class="btn-socials"><i class="fa-solid fa-mobile-screen-button"></i></a>
             </div>
-            <a href="#" class="btn2">Read more</a>
+            <a href="#" class="btn">Read more</a>
         </div>
     </section>
 
     <!-- SERVICES SELECT DESIGN -->
-    <section class="services" id="services">
-        
+    <section class="portfolio" id="projects">
+        <div class="main-text">
+            <p>Portfolio</p>
+            <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="img/1.JPG">
+                <div class="layer">
+                    <h5>Hotel Management System</h5>
+                    <p>Efficient control over rented rooms, reservations and staff operations. Database in SQLite;
+                        Backend in Python and Flask: Ensuring robustness and flexibility in processing operations;
+                        Frontend with HTML and CSS</p>
+                    <a href="https://github.com/marcussviniciuss/sistema-soft-forge" target="_blank"><i class="fa-solid fa-hand-point-up"></i></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/2.JPG">
+                <div class="layer">
+                    <h5>Screen Sound</h5>
+                    <p>Language used: C#. Screen Sound is a recording system, band evaluations, and visualization of the average evaluation.</p>
+                    <a href="https://github.com/marcussviniciuss/screen-sound" target="_blank"><i class="fa-solid fa-hand-point-up"></i></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/3.JPG">
+                <div class="layer">
+                    <h5>Joker API</h5>
+                    <p>Is an API made in node.js and swagger that brings a random joke/riddle for each query. You can add, edit and delete any joke</p>
+                    <a href="https://github.com/marcussviniciuss/api-de-piadas" target="_blank"><i class="fa-solid fa-hand-point-up"></i></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/4.JPG">
+                <div class="layer">
+                    <h5>CRUD Hibernate Bookstore</h5>
+                    <p>Java, Spring Boot, Hibernate: A library system, where you can add, edit or delete any book</p>
+                    <a href="https://github.com/marcussviniciuss/crud-hibernate-livraria" target="_blank"><i class="fa-solid fa-hand-point-up"></i></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/5.JPG">
+                <div class="layer">
+                    <h5>Password Generator</h5>
+                    <p>Password generator made with a front end in HTML and CSS and using Javascript to create random and secure passwords according to the number of characters the user chooses</p>
+                    <a href="https://github.com/marcussviniciuss/gerador-de-senha" target="_blank"><i class="fa-solid fa-hand-point-up"></i></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/6.JPG">
+                <div class="layer">
+                    <h5>Number Base Converter</h5>
+                    <p>Number base converter, Python: binary, octal and hexadecimal. Without any library or ready-made functions to do the math</p>
+                    <a href="https://github.com/marcussviniciuss/conversor-de-bases-numericas" target="_blank"><i class="fa-solid fa-hand-point-up"></i></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="img/7.JPG">
+                <div class="layer">
+                    <h5>Weather App</h5>
+                    <p>Using the openweathermap API to feed the front end made with JS, HTML and CSS. Just place the desired location and the temperature, humidity and wind speed will appear.</p>
+                    <a href="https://github.com/marcussviniciuss/sistema-clima-tempo" target="_blank"><i class="fa-solid fa-hand-point-up"></i></i></a>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section class="experience" id="experience">
+        <div class="main-text">
+            <p>Professional</p>
+            <h2><span>Work</span> Experiences</h2>
+        </div>
+
+        <div class="timeline">
+
+            <!-- <div class="container">
+                <img src="img/">
+                <div class="text-box">
+                    <small>October 2024 - <span>now</span></small>
+                    <h5>Analist SEO - <span><b>Valtech</b></span></h5>
+                    <p><span>Stack:</span></p>
+                </div>
+            </div> -->
+
+            <div class="container">
+                <img src="img/valtech_logo.jpg">
+                <div class="text-box">
+                    <!-- <small>October 2024 - <span>now</span></small> -->
+                    <small>October 2022 - April 2024</small>
+                    <h5>Analist SEO - <span><b>Valtech</b></span></h5>
+                    <!-- <p><span>Stack:</span></p> -->
+                    <p>&bull; Mapping of research and positions that must be conquered and unfolded from the action plan for care;</p>
+                    <p>&bull; On-site diagnostics to find improvements and SEO opportunities;</p>
+                    <p>&bull; Monitor algorithm updates and main SEO trends;</p>
+                    <p>&bull; Management of SEO tools and reports performance, such asSEMRush, Google Analytics e Google Search Console;</p>
+                    <p>&bull; Creation of structured data.</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="experience2" id="graduations">
+        <div class="main-text">
+            <p>Education</p>
+            <h2><span>Graduations</span></h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="container">
+                <img src="img/logo-cruzeiro.png">
+                <div class="text-box2">
+                    <small>2024 - <span>until 2028</span></small></small>
+                    <h5>Software Engineering - <span><b>UNICSUL</b></span></h5>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/logo-cruzeiro.png">
+                <div class="text-box2">
+                    <small>2022 - 2023 (Graduated)</small>
+                    <h5>Systems Analysis and Development - <span><b>UNICSUL</b></span></h5>
+                </div>
+            </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="main-text">
+            <h2><span>My</span> Skills</h2>
+        </div>
+    
+        <div class="skills-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+                <h3>Java</h3>
+            </div>
+    
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+    
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+                <h3>Python</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-solid fa-flask"></i>
+                </div>
+                <h3>Flask</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <h3>HTML</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-brands fa-node"></i>
+                </div>
+                <h3>Node.js</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <h3>SQLite</h3>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-brands fa-git"></i>
+                </div>
+                <h3>Git</h3>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <h3>GitHub</h3>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="end">
+        <div class="last-text">
+            <p>Copyright &#169; 2024 by Marcus Oliveira. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
